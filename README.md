@@ -10,7 +10,7 @@ If you want to create a phoenix app, you can use this for inspiration, but first
 
 ## Note on testing
 
-More tools will be needed to do request tests. Can recommend using [httpotion](https://github.com/myfreeweb/httpotion), but you also need to start a phoenix web server while running the tests. [tuco_tuco](https://github.com/stuart/tuco_tuco) looks like an interesting capybara-like tool for testing UIs (haven't tried it myself yet though).
+More tools will be needed to do request tests. I can recommend using [httpotion](https://github.com/myfreeweb/httpotion). You also need to start a phoenix web server while running the tests. [tuco_tuco](https://github.com/stuart/tuco_tuco) looks like an interesting capybara-like tool for testing UIs (haven't tried it myself yet though).
 
 ## Development
 
