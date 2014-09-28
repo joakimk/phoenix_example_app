@@ -2,6 +2,7 @@
 
 set -e
 
+# Keep in sync with elixir_buildpack.config (heroku config)
 export ERLANG_VERSION="17.1"
 export ELIXIR_VERSION="v1.0"
 export INSTALL_PATH="$HOME/dependencies"
