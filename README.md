@@ -8,6 +8,10 @@ It's intended to show how to setup a basic app including everything needed for d
 
 If you want to create a phoenix app, you can use this for inspiration, but first follow the instructions at the [phoenix github page](https://github.com/phoenixframework/phoenix) for setting up an app.
 
+## Note on testing
+
+More tools will be needed to do request tests. Can recommend using [httpotion](https://github.com/myfreeweb/httpotion), but you also need to start a phoenix web server while running the tests. [tuco_tuco](https://github.com/stuart/tuco_tuco) looks like an interesting capybara-like tool for testing UIs (haven't tried it myself yet though).
+
 ## Development
 
     mix deps.get
